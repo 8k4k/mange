@@ -55,7 +55,7 @@
             <div class="card-body">
               <h5 class="card-title"><i class="bi bi-laptop"></i> Mac</h5>
               <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia veniam tempora exercitationem, alias doloremque distinctio. Doloribus dignissimos repudiandae unde ex.</p>
-              <a href="#" class="btn btn-primary">Buy now</a>
+              <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#buymac">Buy now</button>
             </div>
           </div>
           <div class="card">
@@ -108,6 +108,26 @@
       
       
 
+        <div class="modal fade" id="buymac" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Mac</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Price: 899,99$
+                <hr>
+                <h1>Choose color</h1>
+                <h1><i class="bi bi-laptop"></i><span> <i class="bi bi-laptop-fill"></i></span></h1>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Pay</button>
+              </div>
+            </div>
+          </div>
+        </div>
     <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
