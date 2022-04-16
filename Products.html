@@ -55,7 +55,7 @@
             <div class="card-body">
               <h5 class="card-title"><i class="bi bi-laptop"></i> Mac</h5>
               <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia veniam tempora exercitationem, alias doloremque distinctio. Doloribus dignissimos repudiandae unde ex.</p>
-              <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#buymac">Buy now</button>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buymac">Buy now</button>
             </div>
           </div>
           <div class="card">
@@ -64,7 +64,7 @@
             <div class="card-body">
               <h5 class="card-title"><i class="bi bi-pc-display-horizontal"></i> Mac Studio</h5>
               <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia veniam tempora exercitationem, alias doloremque distinctio. Doloribus dignissimos repudiandae unde ex.</p>
-              <a href="#" class="btn btn-primary">Buy now</a>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buymacstu">Buy now</button>
             </div>
           </div>
           <div class="card">
@@ -73,7 +73,7 @@
             <div class="card-body">
               <h5 class="card-title"><i class="bi bi-phone"></i> Iphone</h5>
               <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia veniam tempora exercitationem, alias doloremque distinctio. Doloribus dignissimos repudiandae unde ex.</p>
-              <a href="#" class="btn btn-primary">Buy now</a>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buyphone">Buy now</button>
             </div>
           </div>
           <div class="card">
@@ -104,10 +104,10 @@
             </div>
           </div>
         </div>
-      </div>
+      <!-- </div> -->
+       
       
-      
-
+      <!-- mac -->
         <div class="modal fade" id="buymac" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -118,12 +118,60 @@
               <div class="modal-body">
                 Price: 899,99$
                 <hr>
-                <h1>Choose color</h1>
+                <h5>Choose color</h5>
                 <h1><i class="bi bi-laptop"></i><span> <i class="bi bi-laptop-fill"></i></span></h1>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Pay</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pay">Pay</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- mac studio -->
+        <div class="modal fade" id="buymacstu" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Mac <span class="text-warning">Studio</span></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Price: 999,80$
+                <hr>
+                <h5>Choose ssd storage</h5>
+                <a href="#" class="btn btn-primary">512gb</a> <a href="#" class="btn btn-primary">1tb</a> 
+                <hr>
+                <h5>Choose your Chip</h5>
+                <img style="width: 20%; height: 20%;" src="../first free create/assets/m1_max__e3jaa7svv6ye_large.jpg" alt=""> <img style="width: 20%; height: 20%;" src="../first free create/assets/m1_ultra__ffux5kep74mm_large.jpg" alt="">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pay">Pay</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- iphone -->
+        <div class="modal fade" id="buyphone" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Mac <span class="text-warning">Studio</span></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Price: 676,85$
+                <hr>
+                <h5>Choose ssd storage</h5>
+                <a href="#" class="btn btn-primary">256gb</a> <a href="#" class="btn btn-primary">512gb</a> <a href="#" class="btn btn-primary">1tb</a> 
+                <hr>
+                <h5>Choose color</h5>
+                <h1><i class="bi bi-phone"></i><span> <i class="bi bi-phone-fill"></i></span></h1>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pay">Pay</button>
               </div>
             </div>
           </div>
