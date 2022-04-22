@@ -82,7 +82,7 @@
             <div class="card-body">
               <h5 class="card-title"><i class="bi bi-tablet"></i> Ipad</h5>
               <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia veniam tempora exercitationem, alias doloremque distinctio. Doloribus dignissimos repudiandae unde ex.</p>
-              <a href="#" class="btn btn-primary">Buy now</a>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buyipad">Buy now</button>
             </div>
           </div>
           <div class="card">
@@ -116,7 +116,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                Price: 899,99$
+                Price: 899$
                 <hr>
                 <h5>Choose color</h5>
                 <h1><i class="bi bi-laptop"></i><span> <i class="bi bi-laptop-fill"></i></span></h1>
@@ -137,7 +137,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                Price: 999,80$
+                Price: 999$
                 <hr>
                 <h5>Choose ssd storage</h5>
                 <a href="#" class="btn btn-primary">512gb</a> <a href="#" class="btn btn-primary">1tb</a> 
@@ -161,13 +161,40 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                Price: 676,85$
+                Price: 676$
                 <hr>
                 <h5>Choose ssd storage</h5>
                 <a href="#" class="btn btn-primary">256gb</a> <a href="#" class="btn btn-primary">512gb</a> <a href="#" class="btn btn-primary">1tb</a> 
                 <hr>
                 <h5>Choose color</h5>
                 <h1><i class="bi bi-phone"></i><span> <i class="bi bi-phone-fill"></i></span></h1>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pay">Pay</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ipad -->
+        <div class="modal fade" id="buyipad" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Ipad</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Price: 799$
+                <hr>
+                <h5>Choose display</h5>
+                <a href="#" class="btn btn-primary">11 inch</a> <a href="#" class="btn btn-primary">12.9 inch</a>
+                <hr>
+                <h5>Choose ssd storage</h5>
+                <a href="#" class="btn btn-primary">256gb</a> <a href="#" class="btn btn-primary">512gb</a> <a href="#" class="btn btn-primary">1tb</a> 
+                <hr>
+                <h5>Choose color</h5>
+                <h1><i class="bi bi-tablet"></i><span> <i class="bi bi-tablet-fill"></i></span></h1>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
