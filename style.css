@@ -14,3 +14,29 @@
 .grid-item-2 {
     grid-row: span 2;
 }
+.cntre {
+    text-align: center;
+}
+.imgcntre {
+    display: block;
+    margin: 0px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.pro {
+    font-size: larger;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+.p {
+    margin-bottom: 1cm;
+}
+.p- {
+    margin-top: 20px;
+}
+.h3 {
+    font-size: larger;
+}
